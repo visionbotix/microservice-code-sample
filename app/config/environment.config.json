@@ -1,0 +1,54 @@
+{
+  "db": {
+    "development": {
+      "username": "root",
+      "password": "",
+      "host": "localhost",
+      "port": 2701,
+      "database": "moj_mela"
+    },
+    "testing": {
+      "username": "",
+      "password": "",
+      "host": "",
+      "port": 2701,
+      "database": ""
+    },
+    "staging": {
+      "username": "",
+      "password": "",
+      "host": "",
+      "port": 2701,
+      "database": ""
+    },
+    "production": {
+      "username": "root",
+      "password": "",
+      "host": "localhost",
+      "port": 3306,
+      "database": "moj_mela"
+    }
+  },
+  "FORCE_DB_SYNC": "false",
+  "jwtOptions": { 
+    "secretOrKey": "boilerplate",
+    "ignoreExpiration": true,
+    "passReqToCallback": true
+  },
+  "awsConfig": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": "me-south-1"
+  },
+  "Bucket": "",
+  "rabbitMQ": {
+    "connection": {
+      "development": "",
+      "staging": "",
+      "production": ""
+    },
+    "exchange": "",
+    "queue": "mainServiceQueue",
+    "binding_keys": ["productImages"]
+  }
+}

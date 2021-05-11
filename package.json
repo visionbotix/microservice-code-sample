@@ -1,0 +1,43 @@
+{
+  "name": "mojmela-main-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "aws-sdk": "^2.892.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^6.2.0",
+    "standard": "^16.0.3",
+    "standard-error": "^1.1.0",
+    "webpack-dev-server": "^3.11.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionbotix/mojmela-main-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visionbotix/mojmela-main-microservice/issues"
+  },
+  "homepage": "https://github.com/visionbotix/mojmela-main-microservice#readme"
+}
